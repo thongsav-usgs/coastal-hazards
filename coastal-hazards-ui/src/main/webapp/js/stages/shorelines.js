@@ -460,7 +460,7 @@ var Shorelines = {
 						bounds.extend(new OpenLayers.Bounds(lbbox[1], lbbox[0], lbbox[3], lbbox[2]).
 							transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913")));
 
-						if (layer.events.listeners.loadend.length) {
+						if (layer.events.listeners.loadend && layer.events.listeners.loadend.length) {
 							layer.events.unregister('added', layer, Shorelines.zoomToLayer);
 						}
 					} else {
