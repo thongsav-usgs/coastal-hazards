@@ -66,7 +66,7 @@
 		<div id="application-container" class="container">
 			<div id="header-row" class="row">
 				<a id="app-navbar-coop-logo-img-container" class="app-navbar-item-container" href="null/">
-				<img id="app-navbar-coop-logo-img" src="http://localhost:8080/coastal-hazards-portal/images/banner/cida-cmgp.svg" alt="Navigation Bar Cooperator Logo">
+				<img id="app-navbar-coop-logo-img" src="<%=baseUrl%>/images/banner/cida-cmgp.svg" alt="Navigation Bar Cooperator Logo">
 				</a>
 				<div id="app-navbar-site-title-container" class="app-navbar-item-container">
 				<div class="app-navbar-title visible-lg hidden-md hidden-sm hidden-xs">USGS Coastal Change Hazards Portal</div>
